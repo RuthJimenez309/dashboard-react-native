@@ -35,7 +35,7 @@ export default function Page() {
           <View>
             <TouchableOpacity style={styles.btnSection} activeOpacity={0.7}>
               <View style={styles.btnArea}>
-                <FontAwesome name="user-o" size={22} color={Colors.white} />
+                <FontAwesome name="user-o" size={25} color={Colors.white} />
                 <Text style={styles.btnText}>Account</Text>
               </View>
             </TouchableOpacity>
@@ -48,28 +48,6 @@ export default function Page() {
                   color={Colors.white}
                 />
                 <Text style={styles.btnText}>Notifications</Text>
-              </View>
-            </TouchableOpacity>
-
-            <TouchableOpacity style={styles.btnSection} activeOpacity={0.7}>
-              <View style={styles.btnArea}>
-                <Ionicons
-                  name="settings-outline"
-                  size={24}
-                  color={Colors.white}
-                />
-                <Text style={styles.btnText}>Settings</Text>
-              </View>
-            </TouchableOpacity>
-
-            <TouchableOpacity style={styles.btnSection} activeOpacity={0.7}>
-              <View style={styles.btnArea}>
-                <MaterialCommunityIcons
-                  name="help-circle-outline"
-                  size={25}
-                  color={Colors.white}
-                />
-                <Text style={styles.btnText}>Help</Text>
               </View>
             </TouchableOpacity>
 
@@ -130,7 +108,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     gap: 15,
-    borderColor: Colors.grey,
+    borderColor: Colors.gray,
     borderWidth: 1,
     borderRadius: 100,
     marginBottom: 7,

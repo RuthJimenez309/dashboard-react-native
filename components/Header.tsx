@@ -1,11 +1,4 @@
-import {
-  View,
-  Text,
-  SafeAreaView,
-  StyleSheet,
-  Image,
-  TouchableOpacity,
-} from "react-native";
+import { View, Text, SafeAreaView, StyleSheet, Image } from "react-native";
 import React from "react";
 import Colors from "@/constants/Colors";
 
@@ -19,20 +12,14 @@ export default function Header() {
             style={styles.userImg}
           />
           <View style={{ marginLeft: 10 }}>
-            <Text style={{ color: Colors.white, fontSize: 12 }}>
-              Hi, Dilotabi!
-            </Text>
+            <Text style={{ color: Colors.white, fontSize: 12 }}>Hi, Sara!</Text>
             <Text
               style={{ color: Colors.tintColor, fontSize: 16, fontWeight: 500 }}
             >
-              Your Admin Panel
+              Good night Sara!
             </Text>
           </View>
         </View>
-
-        <TouchableOpacity onPress={() => {}} style={styles.btnWrapper}>
-          <Text style={{ color: Colors.white, fontSize: 12 }}>My Profile</Text>
-        </TouchableOpacity>
       </View>
     </SafeAreaView>
   );
@@ -50,7 +37,7 @@ const styles = StyleSheet.create({
   userInfoWrapper: { flexDirection: "row", alignItems: "center" },
   userImg: { width: 50, height: 50, borderRadius: 30 },
   btnWrapper: {
-    borderColor: "#666",
+    borderColor: "#616",
     borderWidth: 1,
     padding: 8,
     borderRadius: 10,

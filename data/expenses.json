@@ -1,13 +1,13 @@
 [
   {
     "id": "1",
-    "name": "Sale",
+    "name": "Sales",
     "amount": "955.75",
     "percentage": "61"
   },
   {
     "id": "2",
-    "name": "Turnover",
+    "name": "Bookings",
     "amount": "300.55",
     "percentage": "19"
   },

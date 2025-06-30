@@ -72,7 +72,7 @@ export default function ExpenseBlock({
         </Text>
         <View
           style={{
-            backgroundColor: "rgba(255,255,255,0.2)",
+            backgroundColor: "rgba(209, 41, 164, 0.71)",
             paddingHorizontal: 5,
             paddingVertical: 3,
             borderRadius: 10,
@@ -124,7 +124,7 @@ const styles = StyleSheet.create({
   addItemBtn: {
     flex: 1,
     borderWidth: 2,
-    borderColor: "#666",
+    borderColor: "#626",
     borderStyle: "dashed",
     borderRadius: 10,
     marginRight: 20,

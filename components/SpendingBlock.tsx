@@ -30,7 +30,7 @@ export default function SpendingBlock({
           marginBottom: 10,
         }}
       >
-        February <Text style={{ fontWeight: 700 }}>Sale</Text>
+        February <Text style={{ fontWeight: 700 }}>Sales</Text>
       </Text>
 
       {spendingList.map((item) => {
@@ -66,7 +66,7 @@ export default function SpendingBlock({
           >
             <View
               style={{
-                backgroundColor: Colors.grey,
+                backgroundColor: "#f0a1d0",
                 padding: 10,
                 borderRadius: 50,
                 marginRight: 10,
@@ -85,7 +85,7 @@ export default function SpendingBlock({
               <View style={{ gap: 5 }}>
                 <Text
                   style={{
-                    color: Colors.white,
+                    color: "#ffffff",
                     fontSize: 16,
                     fontWeight: "600",
                   }}

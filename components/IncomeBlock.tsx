@@ -30,7 +30,7 @@ export default function IncomeBlock({
     return (
       <View
         style={{
-          backgroundColor: Colors.grey,
+          backgroundColor: "#f0a1d0",
           padding: 20,
           borderRadius: 20,
           marginRight: 25,
@@ -47,7 +47,7 @@ export default function IncomeBlock({
         >
           <View
             style={{
-              borderColor: "#666",
+              borderColor: "#f0a1d0",
               borderWidth: 1,
               borderRadius: 50,
               padding: 5,
@@ -61,7 +61,7 @@ export default function IncomeBlock({
           </TouchableOpacity>
         </View>
         <Text style={{ color: Colors.white }}>{item.name}</Text>
-        <Text style={{ color: Colors.white, fontSize: 16, fontWeight: 600 }}>
+        <Text style={{ color: Colors.white, fontSize: 1, fontWeight: 900 }}>
           {item.amount}
         </Text>
       </View>

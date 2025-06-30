@@ -1,26 +1,26 @@
 [
   {
     "id": "1",
-    "name": "Trendyol",
+    "name": "Groceries",
     "amount": "355.45",
-    "date": "2024-02-02"
+    "date": "2025-02-02"
   },
   {
     "id": "2",
-    "name": "Hepsiburada",
+    "name": "Shopping",
     "amount": "755,23",
-    "date": "2024-02-18"
+    "date": "2025-02-18"
   },
   {
     "id": "3",
     "name": "Amazon",
     "amount": "234.69",
-    "date": "2024-02-06"
+    "date": "2025-02-06"
   },
   {
     "id": "4",
-    "name": "Online Shopping",
+    "name": "Food",
     "amount": "136.99",
-    "date": "2024-02-12"
+    "date": "2025-02-12"
   }
 ]
